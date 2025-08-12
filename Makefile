@@ -10,7 +10,7 @@ PORT :=
 CC := sdcc
 AS := sdas8051
 MAKEBIN := makebin
-FLASH := sonixflash
+FLASH := sn8flash
 AWK := "$(shell awk 'BEGIN {print "awk"}' || busybox awk 'BEGIN {print "busybox awk"}')"
 
 SRCS := \
